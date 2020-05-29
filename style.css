@@ -1,0 +1,41 @@
+.bordered {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.flag {
+  width: 30px;
+  height: 15px;
+}
+
+.flex-row {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-col {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+#spinner span {
+  margin-left: 10px;
+}
